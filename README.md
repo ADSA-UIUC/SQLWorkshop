@@ -22,6 +22,7 @@ To log into your new Vagrant box, you will have to go into the SQLWorkshop direc
 - Go into Putty to log into your VM (only on Windows)
 
 ## Installing the iPython Software Suite on Vagrant
+The folder which has your `Vagrantfile` is shared with the virtual machine. So anything inside this folder can also be accessed within the virtual machine.
 As soon as you log into the vagrant console, run the following commands in order (copy paste them into your terminal or Putty):
 - `cd /vagrant/` (to go into the shared folder that has all the workshop files)
 - `sudo bash install_packages.sh` (script to install base software and iPython)
