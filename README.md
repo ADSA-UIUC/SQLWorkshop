@@ -10,7 +10,11 @@ We will be using a Vagrant box that will come pre-installed with Python and the 
 - **Vagrant**: is a tool that can create and configure development environments for virtual machines. This basically allows you to install and distribute your configurations of installations of different software like Python, MySQL, mongoDB, etc.
 
 #### Mac/Linux and Windows
-Follow this instructions from the SQL to Python Beginner Project on installing VirtualBox and Vagrant. Click on the link for your operating system: [Windows](https://github.com/ADSA-UIUC/Resources/blob/master/dev-environment/vagrant/windows-setup.md) or [Mac OS X/Linux](https://github.com/ADSA-UIUC/Resources/blob/master/dev-environment/vagrant/mac-setup.md).
+Follow this instructions from the SQL to Python Beginner Project on installing VirtualBox and Vagrant.
+
+**IMPORTANT!!!**: When you will be downloading the `.box` file in step 3, download [this one](https://github.com/ADSA-UIUC/SQLToPython/releases/download/v0.1.0-alpha/vm.box).
+
+Click on the link for your operating system: [Windows](https://github.com/ADSA-UIUC/Resources/blob/master/dev-environment/vagrant/windows-setup.md) or [Mac OS X/Linux](https://github.com/ADSA-UIUC/Resources/blob/master/dev-environment/vagrant/mac-setup.md).
 
 To log into your new Vagrant box, you will have to go into the SQLWorkshop directory using the terminal/command-prompt (for example: `cd Documents/ADSA/SQLWorkshop`), and then type the following commands as detailed in the instructions:
 - `vagrant up`
